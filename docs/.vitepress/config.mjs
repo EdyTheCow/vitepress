@@ -2,11 +2,17 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "My Awesome Project",
+  title: "VitePress Test Docs",
   description: "A VitePress Site",
   base: '/vitepress',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    //logo: '',
+
+    search: {
+      provider: 'local'
+    },
+
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Examples', link: '/markdown-examples' }
@@ -23,7 +29,8 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/EdyTheCow/vitepress' }
     ]
+
   }
 })
