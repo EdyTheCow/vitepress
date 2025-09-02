@@ -6,6 +6,9 @@ hero:
   name: "My Awesome Project"
   text: "A VitePress Site"
   tagline: My great project tagline
+  image:
+    src: /logo.webp
+    alt: VitePress
   actions:
     - theme: brand
       text: Markdown Examples
