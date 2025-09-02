@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: "My Awesome Project"
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  name: "Arkivverket"
+  text: "Open Documentation"
+  tagline: Free and open docs related to various technologies used at Arkviverket
   image:
     src: /logo.webp
     alt: VitePress

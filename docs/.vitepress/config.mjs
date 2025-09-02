@@ -2,8 +2,8 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "VitePress Test Docs",
-  description: "A VitePress Site",
+  title: "Arkivverket Docs",
+  description: "Public documentation from Arkivverket",
   base: '/vitepress',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
