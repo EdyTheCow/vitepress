@@ -3,16 +3,16 @@
 layout: home
 
 hero:
-  name: "Arkivverket"
-  text: "Open Documentation"
-  tagline: Free and open docs related to various technologies used at Arkviverket
-  image:
-    src: /logo.webp
-    alt: VitePress
+  name: "My Awesome Project"
+  text: "A VitePress Site"
+  tagline: My great project tagline
   actions:
+    - theme: brand
+      text: Markdown Examples
+      link: /markdown-examples
     - theme: alt
-      text: Documentation
-      link: /about
+      text: API Examples
+      link: /api-examples
 
 features:
   - title: Feature A
