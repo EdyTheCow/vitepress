@@ -1,11 +1,22 @@
 import { defineConfig } from 'vitepress'
 import { withMermaid } from "vitepress-plugin-mermaid";
+import { GitChangelog, GitChangelogMarkdownSection, } from '@nolebase/vitepress-plugin-git-changelog/vite'
 
 // https://vitepress.dev/reference/site-config
 export default withMermaid(
 
   defineConfig({
 
+    vite: { 
+      plugins: [ 
+        GitChangelog({ 
+          repoURL: () => 'https://github.com/nolebase/integrations', 
+        }), 
+        GitChangelogMarkdownSection(), 
+      ],
+    },
+
+    
     // optionally, you can pass MermaidConfig
     mermaid: {
       // options: https://mermaid.js.org/config/setup/modules/mermaidAPI.html#mermaidapi-configuration-defaults
@@ -15,6 +26,7 @@ export default withMermaid(
       class: 'mermaid my-class', // set additional css classes for parent container
     },
 
+    
     title: "My Awesome Project",
     description: "A VitePress Site",
     base: '/vitepress',
