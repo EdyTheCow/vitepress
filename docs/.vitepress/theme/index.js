@@ -3,6 +3,12 @@ import { h } from 'vue'
 import DefaultTheme from 'vitepress/theme'
 import './style.css'
 
+import { 
+  NolebaseGitChangelogPlugin
+} from '@nolebase/vitepress-plugin-git-changelog/client'
+import '@nolebase/vitepress-plugin-git-changelog/client/style.css'
+
+
 /** @type {import('vitepress').Theme} */
 export default {
   extends: DefaultTheme,
@@ -12,6 +18,6 @@ export default {
     })
   },
   enhanceApp({ app, router, siteData }) {
-    // ...
+    app.use(NolebaseGitChangelogPlugin)
   }
 }
