@@ -26,30 +26,49 @@ export default withMermaid(
       class: 'mermaid my-class', // set additional css classes for parent container
     },
 
-    
-    title: "My Awesome Project",
-    description: "A VitePress Site",
+
+    title: "Arkivverket Docs",
+    description: "Public docs by Arkivverket",
     base: '/vitepress',
     themeConfig: {
       // https://vitepress.dev/reference/default-theme-config
+      //logo: '',
+
+
+      editLink: {
+        pattern: 'https://github.com/edythecow/vitepress/edit/main/docs/:path'
+      },
+
+      //appearance: dark,
+      search: {
+        provider: 'local'
+      },
+
       nav: [
         { text: 'Home', link: '/' },
-        { text: 'Examples', link: '/markdown-examples' }
+        { text: 'Documentation', link: '/about' }
       ],
 
       sidebar: [
         {
-          text: 'Examples',
+          text: 'Introduction',
           items: [
-            { text: 'Markdown Examples', link: '/markdown-examples' },
-            { text: 'Runtime API Examples', link: '/api-examples' }
+            { text: 'About', link: '/about' },
+          ]
+        },
+        {
+          text: 'Terraform / Terragrunt',
+          items: [
+            { text: 'Infrastructure overview', link: '/infra-overview' },
+            { text: 'Deployment examples', link: '/deployment-examples' }
           ]
         }
       ],
 
       socialLinks: [
-        { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+        { icon: 'github', link: 'https://github.com/EdyTheCow/vitepress' }
       ]
+
     }
   })
 )
