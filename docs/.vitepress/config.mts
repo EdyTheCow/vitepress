@@ -10,7 +10,7 @@ export default withMermaid(
     vite: { 
       plugins: [ 
         GitChangelog({ 
-          repoURL: () => 'https://github.com/nolebase/integrations', 
+          repoURL: () => 'https://github.com/edythecow/vitepress', 
         }), 
         GitChangelogMarkdownSection(), 
       ],
