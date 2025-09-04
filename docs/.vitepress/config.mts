@@ -16,7 +16,7 @@ export default withMermaid(
               name: 'Eddy', 
               username: 'EdyTheCow', 
               mapByEmailAliases: ['git@edy.io'] 
-            } 
+            }
           ]
         }), 
         GitChangelogMarkdownSection(), 
