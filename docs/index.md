@@ -10,16 +10,19 @@ hero:
     src: /hero.png
     alt: Arkivverket
   actions:
-    - theme: alt
+    - theme: brand
       text: Documentation
       link: /about
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Open Source
+    icon: 📖
+    details: All of documentation and information provided, is open and under MIT license
+  - title: Modern Technology
+    icon: 🖥️
+    details: Solutions and research based on modern technology
+  - title: Real World Infrastructure
+    icon: 🏗️
+    details: Not just theory. Well tested and researched solutions on infrastructure in production
 ---
 
