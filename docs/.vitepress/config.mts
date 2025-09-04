@@ -10,7 +10,14 @@ export default withMermaid(
     vite: { 
       plugins: [ 
         GitChangelog({ 
-          repoURL: () => 'https://github.com/edythecow/vitepress', 
+          repoURL: () => 'https://github.com/edythecow/vitepress',
+          mapAuthors: [ 
+            { 
+              name: 'Eddy', 
+              username: 'EdyTheCow', 
+              mapByEmailAliases: ['git@edy.io'] 
+            } 
+          ]
         }), 
         GitChangelogMarkdownSection(), 
       ],
