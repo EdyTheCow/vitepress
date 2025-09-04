@@ -37,16 +37,15 @@ export default withMermaid(
     title: "Arkivverket Docs",
     description: "Public docs by Arkivverket",
     base: '/vitepress',
+    appearance: 'dark',
+    cleanUrls: true,
     themeConfig: {
       // https://vitepress.dev/reference/default-theme-config
       //logo: '',
-
-
       editLink: {
         pattern: 'https://github.com/edythecow/vitepress/edit/main/docs/:path'
       },
 
-      //appearance: dark,
       search: {
         provider: 'local'
       },

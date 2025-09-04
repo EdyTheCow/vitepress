@@ -11,7 +11,7 @@ Terragrunt stack defines which Terragrunt units need to be fetched from catalog 
 
 ```hcl
 locals {
-  # Import all of variables and defined deployments
+  # Import all of variables and definqed deployments
   environment_vars = read_terragrunt_config("./env.hcl")
 }
 
