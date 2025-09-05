@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "Arkivverket"
   text: "Open Documentation"
-  tagline: "Free and open docs related to various technologies used at Arkviverket"
+  tagline: "Free and open docs related to various technologies used at Arkivverket"
   image:
     src: /hero.png
     alt: Arkivverket
