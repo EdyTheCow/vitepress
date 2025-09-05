@@ -17,12 +17,12 @@ hero:
 features:
   - title: Open Source
     icon: 📖
-    details: All of documentation and information provided, is open and under MIT license
+    details: All of the documentation is open and under MIT license
   - title: Modern Technology
     icon: 🖥️
     details: Solutions and research based on modern technology
-  - title: Real World Infrastructure
+  - title: Real-World Infrastructure
     icon: 🏗️
-    details: Not just theory. Well tested and researched solutions on infrastructure in production
+    details: Well tested and researched solutions with infrastructure in production
 ---
 
