@@ -73,7 +73,13 @@ export default withMermaid(
 
       socialLinks: [
         { icon: 'github', link: 'https://github.com/EdyTheCow/vitepress' }
-      ]
+      ],
+
+      footer: {
+        message: 'Released under the MIT License.',
+        copyright: 'Copyright © Arkivverket'
+      }
+
 
     }
   })
